@@ -19,9 +19,11 @@ A folder where the Lora AdapterSets are saved
 
 ## Notes
 This was model was trained on an AMD RX 6700xt GPU. Because of this some environment variables were set with "HSA_OVERRIDE_GFX_VERSION" = "10.3.0" being the most important.
-milistu's robot-instructions dataset: https://huggingface.co/datasets/milistu/robot-instructions
 
-There's a portion at the end where multiple combinations of parameters are tested. On an online rental nVidia 5070 ti it worked fine however on my local hardware it doesn't really work.
+milistu's robot-instructions dataset: https://huggingface.co/datasets/milistu/robot-instructions
 
 ## Issues
 Sometimes the model will respond in radians rather than degrees for motor/joint motion requests.
+
+
+There's a portion at the end where multiple combinations of parameters are tested. On an online rental nVidia 5070 ti it worked fine however on my local hardware it doesn't really work.
