@@ -24,6 +24,3 @@ milistu's robot-instructions dataset: https://huggingface.co/datasets/milistu/ro
 
 ## Issues
 Sometimes the model will respond in radians rather than degrees for motor/joint motion requests.
-
-
-There's a portion at the end where multiple combinations of parameters are tested. On an online rental nVidia 5070 ti it worked fine however on my local hardware it doesn't really work.
